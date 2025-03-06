@@ -1,1 +1,1 @@
-# mctc-clientsidescripting
+# clientsidescripting
