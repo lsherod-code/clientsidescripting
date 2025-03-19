@@ -1,8 +1,12 @@
 body {
-  background-color: #0;
+  margin-top: 50px;
+  align-content: center;
+  background-image: radial-gradient(circle, #d1d1f2, #7a7070);
 }
 
 #text {
+  font-family: 'georgia', sans-serif;
+  font-size: 1.5em;
   background-color: #0a0a23;
   color: #ffffff;
   padding: 10px;
@@ -11,7 +15,7 @@ body {
 #game {
   max-width: 500px;
   max-height: 400px;
-  background-color: #b2ffa8;
+  background-color: #79a9b5;
   color: #ffffff;
   margin: 30px auto 0px;
   padding: 10px;
@@ -36,10 +40,17 @@ body {
   padding-right: 10px;
 }
 
-button {
-  cursor: pointer;
-  color: #EEEF20;
-  background-color: #55A630;
-  background-image: linear-gradient(#FFFF3F, #007f5f);
-  border: 3px solid #feac32;
+
+  .button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
 }
